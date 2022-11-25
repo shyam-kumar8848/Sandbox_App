@@ -1,4 +1,4 @@
-from . import __version__ as app_version
+
 
 app_name = "sandbox"
 app_title = "sandbox"
@@ -30,6 +30,10 @@ app_license = "MIT"
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
+
+
+# doctype_js = {"Employee":"public/js/sandbox.js"}
+
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
